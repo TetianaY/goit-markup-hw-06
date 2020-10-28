@@ -205,14 +205,14 @@ body {
 
 .hero {
   display: block;
-  max-width: 1600px;
-  height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
 
 .hero-bg {
+  margin: 0 auto;
+  max-width: 1600px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/studio/hero/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -665,6 +665,7 @@ body {
 
 .footer-social-list {
   margin-left: 70px;
+  margin-right: 93px;
 }
 
 .footer-subtitle {
